@@ -1,0 +1,49 @@
+Arguments: 
+  E:\Program Files\nodejs\node.exe E:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add @nuxt/content
+
+PATH: 
+  E:\Program Files\Git\mingw64\bin;E:\Program Files\Git\usr\bin;C:\Users\deanvlue\bin;C:\Users\deanvlue\bin;E:\Program Files\Git\mingw64\bin;E:\Program Files\Git\usr\local\bin;E:\Program Files\Git\usr\bin;E:\Program Files\Git\usr\bin;E:\Program Files\Git\cmd;E:\Users\deanvlue\dev\goprojects\bin;E:\apps\cmder\vendor\conemu-maximus5\ConEmu\Scripts;E:\apps\cmder\vendor\conemu-maximus5;E:\apps\cmder\vendor\conemu-maximus5\ConEmu;C:\Program Files (x86)\Microsoft SDKs\Azure\CLI2\wbin;C:\Python27;C:\Python27\Scripts;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn;E:\nvm;E:\Program Files\nodejs;E:\Program Files (x86)\WinSCP;E:\Go\bin;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn;E:\Program Files\Git\cmd;E:\Program Files\Git\mingw64\bin;E:\Program Files\Git\usr\bin;E:\Program Files\PuTTY;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\deanvlue\AppData\Local\Microsoft\WindowsApps;E:\Users\deanvlue\AppData\Local\Programs\Microsoft VS Code\bin;E:\nvm;E:\Program Files\nodejs;E:\Users\deanvlue\dev\goprojects\bin;E:\go\bin;E:\apps\cmder;C:\Users\deanvlue\.netlify\helper\bin;E:\Program Files\Vim\vim82;E:\Program Files\Git\usr\bin\vendor_perl;E:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\Users\deanvlue\dev\sep\aec_fichas\node_modules\node-sass\vendor\win32-x64-72\binding.node'
+
+npm manifest: 
+  {
+    "name": "netlifycms",
+    "version": "1.0.0",
+    "description": "My superb Nuxt.js project",
+    "author": "Carlos Muñoz",
+    "private": true,
+    "scripts": {
+      "dev": "nuxt",
+      "build": "nuxt build",
+      "start": "nuxt start",
+      "generate": "nuxt generate && cp -r ./dist/* ../aec_main/aprende-en-casa/maestros/"
+    },
+    "dependencies": {
+      "@nuxtjs/axios": "^5.10.3",
+      "bootstrap": "^4.1.3",
+      "bootstrap-vue": "^2.0.0",
+      "nuxt": "^2.0.0",
+      "v-calendar": "^1.0.0-beta.23"
+    },
+    "devDependencies": {
+      "node-sass": "^4.14.1",
+      "sass-loader": "^8.0.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
