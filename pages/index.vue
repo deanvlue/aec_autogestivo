@@ -183,10 +183,7 @@ export default {
     };
   },
   beforeMount() {},
-  mounted() {
-    this.fetchData(this.levelKey);
-    this.getLevelColor(this.levelKey);
-  },
+  mounted() {},
   methods: {
     async fetchData(levelKey) {
       try {

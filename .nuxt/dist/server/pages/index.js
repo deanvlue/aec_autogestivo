@@ -168,10 +168,7 @@ exports.modules = Array(36).concat([
 
   beforeMount() {},
 
-  mounted() {
-    this.fetchData(this.levelKey);
-    this.getLevelColor(this.levelKey);
-  },
+  mounted() {},
 
   methods: {
     async fetchData(levelKey) {
@@ -1140,12 +1137,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=1f06f174&
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=1ff7803f&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return (_vm.content)?_c('div',[_c('Navbar'),_vm._ssrNode(" "),_c('HeroBanner'),_vm._ssrNode(" "),_c('Cards',{attrs:{"content":_vm.content}}),_vm._ssrNode(" "),_c('backtotop'),_vm._ssrNode(" "),_c('FooterMain')],2):_vm._e()}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=1f06f174&
+// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=1ff7803f&
 
 // EXTERNAL MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=script&lang=js&
 var lib_vue_loader_options_pagesvue_type_script_lang_js_ = __webpack_require__(36);
